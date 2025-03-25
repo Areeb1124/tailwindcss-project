@@ -60,6 +60,8 @@ const SearchOverlay = ({ isOpen, onClose }) => {
 const Nav = () => {
   const [isScrollingUp, isScrollingDown] = useScroll();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle the hamburger menu
+
   return (
     <>
     {/* Render SearchOverlay Above Header */}
@@ -95,11 +97,26 @@ const Nav = () => {
               </span>
             </div>
             <ThemeSwitch />
-            <div className="hidden max-lg:block">
+            <div className="hidden max-lg:block cursor-pointer"  onClick={() => setIsMenuOpen(!isMenuOpen)} >
                 <img src={hamburger} alt="Hamburger" width={25} height={25} />
             </div>
             </div>
         </nav>
+
+         {/* Mobile Menu */}
+         {isMenuOpen && (
+          <div className="bg-white dark:bg-[#1C1C1C] p-4 absolute top-full left-0 w-full shadow-lg max-lg:flex flex-col items-center gap-4 lg:hidden">
+            {navLinks.map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="font-montserrat text-lg text-slate-gray dark:text-white hover:text-coral-red hover:dark:text-coral-red"
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+        )}
     </header>
     </>
   )
