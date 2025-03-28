@@ -21,8 +21,9 @@
 
 ### Development
 -----------------
-> npm install
-> npm run dev
+```sh
+npm install
+npm run dev
 
 ### Project Structure
 --------------------
