@@ -3,14 +3,11 @@
 ### Table of Contents
 -----------------------------
 
-1. Introduction
-2. Development
-3. [Project Structure](#project-structure)
-4. [API Documentation](#api-documentation)
-5. [Key Features](#key-features)
-6. [Environment Variables](#environment-variables)
-7. [Contributing Guidelines](#contributing-guidelines)
-8. [License](#license)
+1. [Introduction](#introduction) 
+2. [Development](#development) 
+3. [Tech Stack Used](#tech-stack-used)
+4. [Key Features](#key-features)
+5. [License](#license)
 
 ### Introduction
 -------------------
@@ -41,17 +38,6 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
- 
-
-
-### API Documentation
----------------------
-
-| HTTP Method | Endpoint | Description |
-| --- | --- | --- |
-| GET | /api/users | Fetches a list of users |
-| GET | /api/posts | Fetches a list of posts |
-| POST | /api/users | Creates a new user |
 
 ### Key Features
 -----------------
@@ -59,26 +45,7 @@
 * Built with Tailwind CSS
 * Uses a modular component structure
 * Includes utility-first CSS
-
-### Environment Variables
--------------------------
-
-To set environment variables, create a `.env` file in the root directory.
-
-```bash
-NAME=JohnDoe
-AGE=30
-```
-
-### Contributing Guidelines
------------------------------
-
-Contributions are welcome! Please follow these guidelines:
-
-* Create a new branch for your feature or bug fix
-* Write a clear and concise commit message
-* Submit a pull request with your changes
-
+* 
 ### License
 ---------
 
