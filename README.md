@@ -14,10 +14,10 @@
 
 ### Introduction
 -------------------
-Shoe Haven is a modern, responsive web application built using React and styled with TailwindCSS.
-Experience a responsive and intuitive user interface that adapts seamlessly to various devices and screen sizes.
-It includes features like a dynamic navigation bar, product showcases, customer reviews, and subscription options.
-The project leverages Vite for fast development and builds, and Next-Themes for dark mode support.
+- Shoe Haven is a modern, responsive web application built using React and styled with TailwindCSS.
+- Experience a responsive and intuitive user interface that adapts seamlessly to various devices and screen sizes.
+- It includes features like a dynamic navigation bar, product showcases, customer reviews, and subscription options.
+- The project leverages Vite for fast development and builds, and Next-Themes for dark mode support.
 
 ### Development
 -----------------
