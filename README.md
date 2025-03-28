@@ -22,8 +22,9 @@
 ### Development
 -----------------
 ```sh
-npm install
-npm run dev
+> npm install
+> npm run dev
+```
 
 ### Project Structure
 --------------------
@@ -43,7 +44,7 @@ tailwindcss-project/
  │   └── tailwind.css
  ├── package.json
  └── README.md
-```
+
 
 ### API Documentation
 ---------------------
