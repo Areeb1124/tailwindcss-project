@@ -42,10 +42,10 @@
 ### Key Features
 -----------------
 
-* Built with Tailwind CSS
-* Uses a modular component structure
-* Includes utility-first CSS
-* 
+* Responsive Design:Fully responsive layout that adapts seamlessly to all screen sizes, including mobile, tablet, and desktop devices.
+* Dark Mode Support:Integrated dark mode using next-themes, allowing users to toggle between light and dark themes or automatically detect system preferences.
+* Dynamic Navigation Bar:Includes a responsive navigation bar with a hamburger menu for smaller screens.Smooth transitions and animations for an enhanced user experience.
+* Deployed on Render:Hosted on Render, making the application accessible online with reliable performance.
 ### License
 ---------
 
