@@ -6,8 +6,9 @@
 1. [Introduction](#introduction) 
 2. [Development](#development) 
 3. [Tech Stack Used](#tech-stack-used)
-4. [Key Features](#key-features)
-5. [License](#license)
+4. [Preview](#preview)
+5. [Key Features](#key-features)
+6. [License](#license)
 
 ### Introduction
 -------------------
@@ -38,6 +39,11 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+
+
+### Preview
+---------------
+![Project Preview ](https://github.com/user-attachments/assets/83346422-97db-4515-a097-da057435bd1c)
 
 ### Key Features
 -----------------
